@@ -1,0 +1,33 @@
+//To display the current minutes using javascript
+
+//First create a function,
+
+<script>
+function currentMinutes(){
+var minutes = new Date();
+var minutesNow = minutes.getMinutes();
+document.getElementById("show").innerHTML = minutesNow;
+}
+</script>
+
+//now create a p tag to display the result
+
+<p id= "show"></p>
+
+
+//now create a button to call the function,
+
+
+<button type="button" onclick="currentMinutes()"></button>
+
+
+//output
+
+
+15
+
+
+//
+
+
+//Thank you for reading the post. Have a great day!
